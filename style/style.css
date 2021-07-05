@@ -1,0 +1,64 @@
+@charset"UTF-8";
+@import url(style_reset.css);
+
+h1
+{
+    text-align: center;
+    margin: 40px auto;
+}
+
+div#warp
+{
+    width: 1300px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+div#slide
+{
+    width: 1200px;
+    height: 300px;
+    border: 4px solid #08f;
+}
+
+div#shuttleframe
+{
+    width: 1200px;
+    height: 300px;
+    border: 4px solid #f80;
+}
+
+#slide a
+{
+    position: relative;
+    /* border: 4px solid #f80;*/
+    display: inline-block;
+
+
+    position: absolute;
+    /*전환형에서 사용*/
+
+}
+
+#slide a:not(:frit-child)
+{
+    display: none;
+}
+
+#slide span
+{
+
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 24px;
+    border: 4px solid #aaa;
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+}
+
